@@ -1,5 +1,6 @@
 ---
-
+import Portfolio from "../components/Portfolio";
+import "../styles/portfolio.css";
 ---
 
 <html lang="en">
@@ -8,10 +9,13 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta
+			name="description"
+			content="whekin: backend engineer with a small public index of side projects."
+		/>
+		<title>whekin</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Portfolio />
 	</body>
 </html>
